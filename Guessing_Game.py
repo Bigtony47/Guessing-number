@@ -1,6 +1,7 @@
+import random
 def play_game():
 
-    secret_number = (67)
+    secret_number = random.randint(1, 100)
     attempts = 0
     max_attempts = 7
     print("Guess the number between 1 and 100.")
